@@ -6,7 +6,7 @@
   <link href="https://nil.icu/atom.xml" rel="self"/>
   
   <link href="https://nil.icu/"/>
-  <updated>2025-09-11T16:15:07.640Z</updated>
+  <updated>2025-09-24T03:22:26.582Z</updated>
   <id>https://nil.icu/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对抗前端反调试：编译免疫无限debugger的Chromium浏览器</title>
+    <link href="https://nil.icu/%E5%AF%B9%E6%8A%97%E5%89%8D%E7%AB%AF%E5%8F%8D%E8%B0%83%E8%AF%95,%E7%BC%96%E8%AF%91%E5%85%8D%E7%96%AB%E6%97%A0%E9%99%90debugger%E7%9A%84Chromium%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    <id>https://nil.icu/%E5%AF%B9%E6%8A%97%E5%89%8D%E7%AB%AF%E5%8F%8D%E8%B0%83%E8%AF%95,%E7%BC%96%E8%AF%91%E5%85%8D%E7%96%AB%E6%97%A0%E9%99%90debugger%E7%9A%84Chromium%E6%B5%8F%E8%A7%88%E5%99%A8/</id>
+    <published>2025-09-22T15:06:34.592Z</published>
+    <updated>2025-09-24T03:22:26.582Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;p&gt;最近在测试某系统的时候，发现瑞数好像最近又升级了，以往绕过无限 debugger 的一些方法都失效了。经大佬指点，发现通过魔改</summary>
+        
+      
+    
+    
+    
+    <category term="前端逆向" scheme="https://nil.icu/categories/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/"/>
+    
+    <category term="渗透测试" scheme="https://nil.icu/categories/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="前端逆向" scheme="https://nil.icu/tags/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/"/>
+    
+    <category term="chromium" scheme="https://nil.icu/tags/chromium/"/>
+    
+    <category term="debugger绕过" scheme="https://nil.icu/tags/debugger%E7%BB%95%E8%BF%87/"/>
+    
+    <category term="瑞数" scheme="https://nil.icu/tags/%E7%91%9E%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>开篇第一弹</title>
