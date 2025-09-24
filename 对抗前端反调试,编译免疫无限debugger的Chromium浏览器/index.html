@@ -383,7 +383,8 @@
 
     
       <div class="comments-container">
-        
+        <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
+
 
 
 
@@ -400,7 +401,7 @@
         repo: 'xk4ng.github.io',
         owner: 'xk4ng',
         admin: ['xk4ng'],
-        id: location.pathname,
+        id: md5(location.pathname),
         distractionFreeMode: false
       })
 
