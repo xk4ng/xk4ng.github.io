@@ -6,7 +6,7 @@
   <link href="https://nil.icu/atom.xml" rel="self"/>
   
   <link href="https://nil.icu/"/>
-  <updated>2025-09-24T03:22:26.582Z</updated>
+  <updated>2025-09-24T04:56:02.714Z</updated>
   <id>https://nil.icu/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://nil.icu/%E5%AF%B9%E6%8A%97%E5%89%8D%E7%AB%AF%E5%8F%8D%E8%B0%83%E8%AF%95,%E7%BC%96%E8%AF%91%E5%85%8D%E7%96%AB%E6%97%A0%E9%99%90debugger%E7%9A%84Chromium%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     <id>https://nil.icu/%E5%AF%B9%E6%8A%97%E5%89%8D%E7%AB%AF%E5%8F%8D%E8%B0%83%E8%AF%95,%E7%BC%96%E8%AF%91%E5%85%8D%E7%96%AB%E6%97%A0%E9%99%90debugger%E7%9A%84Chromium%E6%B5%8F%E8%A7%88%E5%99%A8/</id>
     <published>2025-09-22T15:06:34.592Z</published>
-    <updated>2025-09-24T03:22:26.582Z</updated>
+    <updated>2025-09-24T04:56:02.714Z</updated>
     
     
       
@@ -35,8 +35,6 @@
     
     
     <category term="前端逆向" scheme="https://nil.icu/categories/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/"/>
-    
-    <category term="渗透测试" scheme="https://nil.icu/categories/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
     
     <category term="前端逆向" scheme="https://nil.icu/tags/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/"/>

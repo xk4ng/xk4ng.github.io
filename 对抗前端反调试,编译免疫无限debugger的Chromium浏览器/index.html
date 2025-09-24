@@ -168,7 +168,7 @@
       <div class="post-attach">
         <span class="post-pubtime">
           <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-          2025-09-24 11:22:26
+          2025-09-24 12:56:02
         </span>
         
               <span class="post-categories">
@@ -177,12 +177,6 @@
                 <span class="span--category">
                   <a href="/categories/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/" title="前端逆向">
                     <b>#</b> 前端逆向
-                  </a>
-                </span>
-                
-                <span class="span--category">
-                  <a href="/categories/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" title="渗透测试">
-                    <b>#</b> 渗透测试
                   </a>
                 </span>
                 
@@ -316,7 +310,7 @@
           <div class="post-attach">
             <span class="post-pubtime">
               <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
-              2025-09-24 11:22:26
+              2025-09-24 12:56:02
             </span>
             
                   <span class="post-categories">
@@ -325,12 +319,6 @@
                     <span class="span--category">
                       <a href="/categories/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/" title="前端逆向">
                         <b>#</b> 前端逆向
-                      </a>
-                    </span>
-                    
-                    <span class="span--category">
-                      <a href="/categories/%E5%89%8D%E7%AB%AF%E9%80%86%E5%90%91/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/" title="渗透测试">
-                        <b>#</b> 渗透测试
                       </a>
                     </span>
                     
@@ -403,6 +391,7 @@
   <div id="gitalk-container"></div>
 
   <script>
+  var gitalk_id = md5(location.pathname)
     function loadGitalkSuc() {
       const gitalk = new Gitalk({
         clientID: 'Ov23liILtAaDaEHcWmhv',
@@ -410,7 +399,7 @@
         repo: 'xk4ng.github.io',
         owner: 'xk4ng',
         admin: ['xk4ng'],
-        id: location.pathname,
+        id: gitalk_id,
         distractionFreeMode: false
       })
 
@@ -421,6 +410,7 @@
     <link rel="stylesheet" href="/plugins/gitalk.css">
     <script type="text/javascript" src="/plugins/gitalk.min.js" onload="loadGitalkSuc(this)"></script>
   
+<script src="js/md5.min.js"></script>
 
 
 
