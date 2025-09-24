@@ -58,6 +58,8 @@
   
 
   
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
 
   <script>
     var html = document.documentElement
@@ -391,7 +393,6 @@
   <div id="gitalk-container"></div>
 
   <script>
-  var gitalk_id = md5(location.pathname)
     function loadGitalkSuc() {
       const gitalk = new Gitalk({
         clientID: 'Ov23liILtAaDaEHcWmhv',
@@ -399,7 +400,7 @@
         repo: 'xk4ng.github.io',
         owner: 'xk4ng',
         admin: ['xk4ng'],
-        id: gitalk_id,
+        id: location.pathname,
         distractionFreeMode: false
       })
 
@@ -410,7 +411,6 @@
     <link rel="stylesheet" href="/plugins/gitalk.css">
     <script type="text/javascript" src="/plugins/gitalk.min.js" onload="loadGitalkSuc(this)"></script>
   
-<script src="js/md5.min.js"></script>
 
 
 
@@ -457,6 +457,19 @@
         
     </div>
   
+  
+    <div class="footer-views">
+      
+          本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        
+      
+          本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+        
+      
+          本站访客数<span id="busuanzi_value_site_uv"></span>人
+        
+      
+    </div>
   
 </div>
 
